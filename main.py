@@ -161,5 +161,5 @@ def read_root():
     return {"message": "Enhanced Crypto AI Prediction API is running!"}
 
 if __name__ == "__main__":
-    port = int(os.getenv("PORT", 8080))  # Use the PORT environment variable from Render
+    port = int(os.getenv("PORT", 10000))  # Use the PORT environment variable from Render
     uvicorn.run(app, host="0.0.0.0", port=port)
